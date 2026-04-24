@@ -1,0 +1,29 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Start entry of every line in terminal
+PS1='\[\e[1;32m\]\u@\h\[\e[00m\]:\[\e[0;34m\]\w\[\e[00m\]\$ \[\e[0m\]'
+
+# Source the bash aliases file
+source $HOME/.bash_aliases
+
+# Add my bin to PATH
+export PATH="$PATH:/home/vaughny/bin"
+
+# Set Neovim as editor
+export EDITOR=nvim
+
+# Created by `pipx` on 2026-01-07 05:10:14
+export PATH="$PATH:$HOME/.local/bin"
+
+# Created by pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - bash)"
+
+# Starship integration
+eval "$(starship init bash)"

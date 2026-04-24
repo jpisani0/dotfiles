@@ -1,0 +1,12 @@
+# QoL
+alias cl="clear"
+alias upd="sudo pacman -Syu && flatpak update -y && yay -Syu"
+alias ls="ls --color=auto --group-directories-first -p"
+alias ll="ls -alFh"
+alias la="ls -A"
+alias neofetch='fastfetch'
+alias grep="grep --color=auto"
+
+# Run veracrypt in text mode whenever calling from terminal
+alias veracrypt="veracrypt -t"
+
