@@ -7,6 +7,8 @@ alias la="ls -A"
 alias neofetch='fastfetch'
 alias grep="grep --color=auto"
 alias open="xdg-open"
+alias v="vim"
+alias vv="nvim"
 
 # Run veracrypt in text mode whenever calling from terminal
 alias veracrypt="veracrypt -t"
