@@ -1,10 +1,11 @@
 return {
   {
-    "mason-org/mason-lspconfig.nvim",
+    "mason-org/mason.nvim",
     opts = {
       ensure_installed = {
         "clangd",
         "pyright",
+        "cmake-language-server",
       },
     },
   },
