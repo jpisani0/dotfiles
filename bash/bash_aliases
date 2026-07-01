@@ -12,3 +12,6 @@ alias vv="nvim"
 
 # Run veracrypt in text mode whenever calling from terminal
 alias veracrypt="veracrypt -t"
+
+# Python venv
+alias activate=". venv/bin/activate"
