@@ -30,8 +30,8 @@ config.initial_rows = 28
 config.max_fps = 120
 
 -- Background
-config.window_background_opacity = 0.8
-config.kde_window_background_blur = true
+--config.window_background_opacity = 0.8
+--config.kde_window_background_blur = true
 
 -- KDE Wayland
 --config.enable_wayland = false
