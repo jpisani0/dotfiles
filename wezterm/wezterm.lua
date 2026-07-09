@@ -36,4 +36,20 @@ config.max_fps = 120
 -- KDE Wayland
 --config.enable_wayland = false
 
+config.mouse_bindings = {
+  -- Slower scroll up/down (3 lines instead of Page Up/Down)
+  {
+    event = { Down = { streak = 1, button = { WheelUp = 1 } } },
+    mods = 'NONE',
+    action = wezterm.action.ScrollByLine(-3),
+    alt_screen = false,
+  },
+  {
+    event = { Down = { streak = 1, button = { WheelDown = 1 } } },
+    mods = 'NONE',
+    action = wezterm.action.ScrollByLine(3),
+    alt_screen = false,
+  },
+}
+
 return config
