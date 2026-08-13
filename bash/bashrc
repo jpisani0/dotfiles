@@ -27,3 +27,6 @@ eval "$(pyenv init - bash)"
 
 # Starship integration
 eval "$(starship init bash)"
+
+# Keychain
+eval $(keychain --eval --quiet)
