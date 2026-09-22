@@ -3,7 +3,7 @@ title = "Alacritty"
 padding.x = 5
 padding.y = 5
 opacity = 0.8
-blur = true
+blur = false
 dimensions.lines = 40
 dimensions.columns = 150
 
