@@ -6,6 +6,8 @@ return {
         "clangd",
         "pyright",
         "cmake-language-server",
+        "rust-analyzer",
+        "typescript-language-server",
       },
     },
   },
